@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Aura | Timeless Elegance</title>
+    <!-- Elegant Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="lk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+      
+        .hero-visuals {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .hero-visuals a.floating-card {
+            text-decoration: none;
+            display: block;
+            width: 140px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .hero-visuals a.floating-card:hover {
+            transform: translateY(-5px);
+        }
+        .hero-visuals a.floating-card img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 6px;
+        }
+        .hero-visuals a.floating-card p {
+            font-size: 0.8rem;
+            color: #5C524C;
+            font-style: italic;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-brand">L'Aura</div>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#shop">Collection</a>
+            <a href="#story">Our Story</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- الجزء الشمال: النصوص -->
+        <div class="hero-content">
+            <h3>L'Aura</h3>
+            <h1>Artisanal Decor for Timeless Spaces.</h1>
+            <p>Our handpicked collection of classic books, artistic journals, Victorian jewelry, and scented candles designed for a cozy, luxurious atmosphere.</p>
+            <div class="hero-buttons">
+                <a href="#shop" class="btn-primary">Explore Collection</a>
+            </div>
+        </div>
+
+       
+        <div class="hero-visuals">
+            <a href="#decor-section" class="floating-card">
+                <img src="./b19.jpg" alt="Decorative Pieces">
+                <p>Decorative Pieces</p>
+            </a>
+            <a href="#mugs-section" class="floating-card">
+                <img src="./m5.jpg" alt="Cups & Mugs">
+                <p>Cups & Mugs</p>
+            </a>
+            <a href="#home-decor-section" class="floating-card">
+                <img src="./c14.jpg" alt="Home & Decor">
+                <p>Home & Decor</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="story" class="story-section" style="padding: 100px 8%; background-color: #F7F4EE; text-align: center;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: var(--accent-color, #A38A75); margin-bottom: 10px;">Our Story</h3>
+            <h2 style="font-size: 2.5rem; font-style: italic; color: var(--text-main, #2C2624); margin-bottom: 25px;">Crafted for Timeless Moments</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted, #6E6560); font-style: italic; margin-bottom: 20px;">
+                Founded out of a deep love for classic elegance and aesthetic warmth, L'Aura is more than just a collection—it's a sanctuary for the soul. We handpick every single piece, from charming decorative accents to cozy artisanal mugs, designed to turn ordinary everyday spaces into timeless works of art.
+            </p>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-muted, #6E6560); font-style: italic;">
+                Because your home should tell the story of who you are, and every corner deserves to be wrapped in grace and beauty.
+            </p>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section">
+        <div class="shop-header">
+            <h2>The Collection</h2>
+            <p>Carefully curated pieces to wrap your everyday moments in warmth and classic beauty.</p>
+        </div>
+
+        <!-- 1. Decor Category -->
+        <div id="decor-section" class="category-block">
+            <h3 class="category-title">Decor </h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="./b19.jpg" alt="Book">
+                    <h4>Pink Crystal Rose Bloom</h4>
+                    <p class="price">$28.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b1.jpg" alt="Book">
+                    <h4>Mushroom Cottage</h4>
+                    <p class="price">$29.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="b0.jpg" alt="Book">
+                    <h4>Swan Couple Box</h4>
+                    <p class="price">$32.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b12jpg.jpg" alt="Book">
+                    <h4>Fairy Garden Figurines</h4>
+                    <p class="price">$35.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b34.jpg" alt="Book">
+                    <h4>Fairy in a Heart Box</h4>
+                    <p class="price">$29.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b22.jpg" alt="Book">
+                    <h4>Little Lamb Sanctuary</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b20.jpg" alt="Book">
+                    <h4>Pink Roof Mushroom House</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b8jpg.jpg" alt="Book">
+                    <h4>Ornamental Swan Figurine</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b9.jpg" alt="Book">
+                    <h4>Aristocratic Cat</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b24.jpg" alt="Book">
+                    <h4>Purple Fantasy Castle</h4>
+                    <p class="price">$38.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b30.jpg" alt="Book">
+                    <h4>Teddy Bear Armchair</h4>
+                    <p class="price">$30.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b23.jpg" alt="Book">
+                    <h4>Pumpkin Castle House</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b26.jpg" alt="Book">
+                    <h4>Totoro with Lantern</h4>
+                    <p class="price">$26.75</p>
+                </div>
+                <div class="product-card">
+                    <img src="./b28.jpg" alt="Book">
+                    <h4>Glowing Mushroom Haven</h4>
+                    <p class="price">$26.75</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. Cups & Mugs Category -->
+        <div id="mugs-section" class="category-block">
+            <h3 class="category-title">Cups & Mugs </h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="./m1.jpg" alt="Cup">
+                    <h4>Blossom Petal Teacup</h4>
+                    <p class="price">$22.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m2.jpg" alt="Cup">
+                    <h4>Vintage Rose Teacup</h4>
+                    <p class="price">$24.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m3.jpg" alt="Cup">
+                    <h4>Enchanted Garden Tea Mug</h4>
+                    <p class="price">$28.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m4.jpg" alt="Cup">
+                    <h4>Stacked Teddy Bear Mugs</h4>
+                    <p class="price">$32.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="m5.jpg" alt="Cup">
+                    <h4>Blooming Rose Ceramic Mugs</h4>
+                    <p class="price">$26.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="m6jpg.jpg" alt="Cup">
+                    <h4>Pastel Meadow Teacup</h4>
+                    <p class="price">$23.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="m7.jpg" alt="Cup">
+                    <h4>Rococo Floral Teacup Set</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="m8.jpg" alt="Cup">
+                    <h4>Botanical Rose Coffee Mug</h4>
+                    <p class="price">$25.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m13.jpg" alt="Cup">
+                    <h4>Bluebell Twilight Teacup</h4>
+                    <p class="price">$27.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m10.jpg" alt="Cup">
+                    <h4>Fairytale Kingdom Mug</h4>
+                    <p class="price">$30.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m9.jpg" alt="Cup">
+                    <h4>Stacked Pastel Teacups</h4>
+                    <p class="price">$34.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m11jpg.jpg" alt="Cup">
+                    <h4>Portrait Cameo Teacup</h4>
+                    <p class="price">$26.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="./m12.jpg" alt="Cup">
+                    <h4>Serene Dreamer Portrait Mug</h4>
+                    <p class="price">$31.00</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. Home & Decor Category -->
+        <div id="home-decor-section" class="category-block">
+            <h3 class="category-title">Home & Decor </h3>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="./c6.jpg" alt="Home Decor">
+                    <h4>Pink Mushroom Accent Stool</h4>
+                    <p class="price">$45.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c12.jpg" alt="Home Decor">
+                    <h4>Enchanted Forest Candle Holder</h4>
+                    <p class="price">$52.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c14.jpg" alt="Home Decor">
+                    <h4>Glowing Swan Couple Figurine</h4>
+                    <p class="price">$38.50</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c11.jpg" alt="Home Decor">
+                    <h4>Winged Bunny Desk Ornament</h4>
+                    <p class="price">$29.99</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c10f.jpg" alt="Home Decor">
+                    <h4>Whimsical Bunny Tissue Holder</h4>
+                    <p class="price">$21.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c9.jpg" alt="Home Decor">
+                    <h4>Kitty Ceramic Toothbrush Holder</h4>
+                    <p class="price">$39.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c15.jpg" alt="Home Decor">
+                    <h4>Pastel Wavy Ceramic Vase</h4>
+                    <p class="price">$25.00</p>
+                </div>
+               
+                <div class="product-card">
+                    <img src="./c13.jpg" alt="Home Decor">
+                    <h4>Animal Meadow Ceramic Bowl</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c17.jpg" alt="Home Decor">
+                    <h4>Blossom Petal Wall Clock</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c18 - Copy.jpg" alt="Home Decor">
+                    <h4>Trailing Ivy Wall Planter</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c19.jpg" alt="Home Decor">
+                    <h4>Bunny Roll Paper Dispenser</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c20.jpg" alt="Home Decor">
+                    <h4>Sculptural 3D Floral Wall Art</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c21.jpg" alt="Home Decor">
+                    <h4>Classic Ceramic Bouquet Vase</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c22.jpg" alt="Home Decor">
+                    <h4>Miniature Pastel Bookshelf Box</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c23.jpg" alt="Home Decor">
+                    <h4>Playful Kittens Desk Decor</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c24.jpg" alt="Home Decor">
+                    <h4>Cartoon Character Storage Stool</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c25 - Copy.jpg" alt="Home Decor">
+                    <h4>Strawberry Milk Pen Holder</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c26 - Copy.jpg" alt="Home Decor">
+                    <h4>Character Compartment Snack Plate</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c27.jpg" alt="Home Decor">
+                    <h4>Citrus Branch Wall Hooks</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c28 - Copy.jpg" alt="Home Decor">
+                    <h4>Floral Branch Twin Candle Holder</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c29 - Copy.jpg" alt="Home Decor">
+                    <h4>Cozy Bunny Cottage Night Light</h4>
+                    <p class="price">$29.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="./c30 - Copy.jpg" alt="Home Decor">
+                    <h4>Adorable Dusted Duck Planters</h4>
+                    <p class="price">$29.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 80px 8%; background-color: #fff; text-align: center;">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #A38A75; margin-bottom: 10px;">Get in Touch</h3>
+            <h2 style="font-size: 2rem; font-style: italic; color: #2C2624; margin-bottom: 20px;">We’d Love to Hear From You</h2>
+            <p style="color: #6E6560; font-style: italic; margin-bottom: 30px;">Have a question about our collection or need assistance? Drop us a message below.</p>
+            <form style="display: flex; flex-direction: column; gap: 15px;">
+                <input type="text" placeholder="Your Name" required style="padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;">
+                <input type="email" placeholder="Your Email" required style="padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;">
+                <textarea placeholder="Your Message" rows="4" required style="padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;"></textarea>
+                <button type="submit" style="padding: 12px; background-color: #2C2624; color: #fff; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Col 1: Brand Info -->
+            <div class="footer-col brand-info">
+                <h2 class="footer-logo">L'Aura</h2>
+                <p>Timeless elegance and artisanal details designed for a cozy, luxurious atmosphere.</p>
+            </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#shop">Collection</a></li>
+                    <li><a href="#story">Our Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Socials & Stay Inspired -->
+            <div class="footer-col newsletter-col">
+                <h3>Stay Inspired</h3>
+                <p>Join our newsletter to receive updates on new artisanal arrivals.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 L'Aura. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
